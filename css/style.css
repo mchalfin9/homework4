@@ -52,6 +52,10 @@ links in the navigation are in the hover or focus state.*/
 
 /*Your Code Here*/
 /*Write selector/rule property to position the skip class element*/
+nav a:hover{
+    text-decoration-line: underline;
+}
+
 .skip a:focus{
   top: 0px;
 }
